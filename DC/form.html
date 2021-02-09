@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style="background-color: #eee";>
+
+<h2 style="font-size: 200%;text-align: center;color: blue";>Course Registeration Form</h2>
+
+<form action="/action_page.php">
+  <label for="first name" style="font-size: 130%";>First name:</label><br><br>
+  <input type="text" id="first name" name="first name" style="font-size: 140%"; required><br><br>
+  <label for="last name" style="font-size: 130%";>Last name:</label><br><br>
+  <input type="text" id="last name" name="last name" style="font-size: 140%";><br><br>
+  <label for="roll no." style="font-size: 130%";> Roll No. :</label><br><br>
+  <input type="number" id="roll no." name="roll no." style="font-size: 140%"required><br><br>
+  <label for="email" style="font-size: 130%";> Email Address:</label><br><br>
+  <input type="email" id="email" name="email" required placeholder="xyz@student.nitw.ac.in" style="font-size: 140%";><br><br>
+  <label for="courses" style="font-size: 130%";> Select your Courses:</label><br><br>
+  <select id ="courses" name="courses" size="2" multiple>
+  	<option value="DSP" style="font-size: 130%";>Digital Signal and Processing</option>
+  	<option value="ITC" style="font-size: 130%";>Information Theory and Coding</option>
+  	<option value="DN" style="font-size: 130%";>Data Networks</option>
+  	<option value="WT" style="font-size: 130%";>Web Technology</option>
+  </select><br><br>
+  <input type="submit" value="Submit" style="font-size: 140%";><br>
+</form> 
+
+<p>Please check your information again.</p>
+
+</body>
+</html>
